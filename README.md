@@ -23,7 +23,7 @@ Creating the tf-idf matrix.
 
 # Results/conclusions
 
-![rmses]('./Images/Picture1.png')
+![rmses]('./Images/rmses.png')
 
 ## Conclusions
 
