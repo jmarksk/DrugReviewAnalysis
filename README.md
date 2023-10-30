@@ -1,3 +1,5 @@
+# Drug reviews sentiment analysis
+
 # Background Information
 
 A hospital or insurance provider is interested in efficiently extracting numeric ratings from patients' written review.  To this end we build a model using labelled, numerically, patient reviews. 
@@ -21,9 +23,9 @@ Ratings are not normally distributed. Counts are highest at the worst and best r
 
 # Data modelling
 
-- Baseline model (TF-IDF) with linear regression
+- Baseline Decision Tree model (TF-IDF)
 
-- Decision Tree regression models
+- linear regression (TF-IDF)
 
 - Word embedding models. 
 
@@ -32,9 +34,19 @@ Ratings are not normally distributed. Counts are highest at the worst and best r
 
 ![rmses]('./Images/rmses.png')
 
-## Conclusions
+## Recommendations/future work
 
-- Deployment for ‘rating extraction’ from written review.
+- Deployment linear regression (TF-IDF) for ‘rating extraction’ from written review.
 
 - Gather insights on how patients rate drugs.
     - "doctor, love, worse" etc. 
+    
+
+- Combine the tf-idf and word embedding models.
+- Use the “meta-data” as features. (i.e. the drug evaluated)
+
+## Repository structure
+- Notebook
+- README
+- presentation
+- data
