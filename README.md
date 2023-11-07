@@ -1,15 +1,21 @@
-# Drug reviews sentiment analysis
+    # Drug reviews sentiment analysis
 
-# Background Information
+# Background information
 
 A hospital or insurance provider is interested in efficiently extracting numeric ratings from patients' written review.  To this end we build a model using labelled, numerically, patient reviews. 
 
+Click [here]('.//drugsReviews.ipynb') to access full notebook.
+
+
 # Data exploration
+
+
 
 The data comes from Drugs.com and is accessed through UCI's website.
 
 ![Ratings distribution]('./Images/Ratings distribution.png')
 
+Click [here]('.//drugsComTrain_raw.tsv') to access data. Data was sourced by Kalummadi and Grer.
 
 Ratings are not normally distributed. Counts are highest at the worst and best ratings. 
 
@@ -17,11 +23,11 @@ Ratings are not normally distributed. Counts are highest at the worst and best r
 - 800 unique conditions
 - 3400 unique drugs
 
-# Data Understanding/Preprocessing
+# Data understanding/preprocessing
 
 - Tokenizing and creating the tf-idf matrix.
 
-# Data modelling
+# Data modeling
 
 - Baseline Decision Tree model (TF-IDF)
 
@@ -46,7 +52,7 @@ Ratings are not normally distributed. Counts are highest at the worst and best r
 - Use the “meta-data” as features. (i.e. the drug evaluated)
 
 ## Repository structure
-- Notebook
+- [Notebook]('.//drugsReviews.ipynb')
 - README
-- presentation
-- data
+- [Presentation]('.//Presentation.pdf')
+- [data]('.//drugsComTrain_raw.tsv')
