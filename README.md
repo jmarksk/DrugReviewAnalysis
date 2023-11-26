@@ -4,7 +4,7 @@
 
 A hospital or insurance provider is interested in efficiently extracting numeric ratings from patients' written review.  To this end we build a model using labelled, numerically, patient reviews. 
 
-Click [here]('.//drugsReviews.ipynb') to access full notebook.
+Click [here](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/drugReviews.ipynb) to access full notebook.
 
 
 # Data exploration
@@ -13,9 +13,10 @@ Click [here]('.//drugsReviews.ipynb') to access full notebook.
 
 The data comes from Drugs.com and is accessed through UCI's website.
 
-![Ratings distribution]('./Images/Ratings distribution.png')
 
-Click [here]('.//drugsComTrain_raw.tsv') to access data. Data was sourced by Kalummadi and Grer.
+Click [here](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/drugsComTrain_raw.tsv) to access data. 
+
+![Ratings distribution](https://github.com/jmarksk/DrugReviewAnalysis/blob/main//Images/Ratings distribution.png "y distr")
 
 Ratings are not normally distributed. Counts are highest at the worst and best ratings. 
 
@@ -38,7 +39,7 @@ Ratings are not normally distributed. Counts are highest at the worst and best r
 
 # Results/conclusions
 
-![rmses]('./Images/rmses.png')
+![rmses](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/Images/rmses.png "val rmses")
 
 ## Recommendations/future work
 
@@ -52,7 +53,7 @@ Ratings are not normally distributed. Counts are highest at the worst and best r
 - Use the “meta-data” as features. (i.e. the drug evaluated)
 
 ## Repository structure
-- [Notebook]('.//drugsReviews.ipynb')
+- [Notebook](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/drugReviews.ipynb)
 - README
-- [Presentation]('.//Presentation.pdf')
-- [data]('.//drugsComTrain_raw.tsv')
+- [Presentation](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/Presentation.pdf)
+- [data](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/drugsComTrain_raw.tsv)
