@@ -20,6 +20,8 @@ Click [here](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/drugsComTra
 
 Ratings are not normally distributed. Counts are highest at the worst and best ratings. 
 
+The key columns are the dependent variable, patient numeric rating, and the text review column, the basis for the independent variables.
+
 - 160,000 samples
 - 800 unique conditions
 - 3400 unique drugs
@@ -32,7 +34,7 @@ Ratings are not normally distributed. Counts are highest at the worst and best r
 
 - Baseline Decision Tree model (TF-IDF)
 
-- linear regression (TF-IDF)
+- Linear regression (TF-IDF)
 
 - Word embedding models. 
 
