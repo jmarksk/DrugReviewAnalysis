@@ -1,4 +1,4 @@
-# Drug reviews sentiment analysis
+    # Drug reviews sentiment analysis
 
 # Background information
 
@@ -16,7 +16,7 @@ The data comes from Drugs.com and is accessed through UCI's website.
 
 Click [here](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/drugsComTrain_raw.tsv) to access data. 
 
-![Ratings distribution](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/Images/ratingsDistribution.png "y distr")
+![ratingsDistribution](https://github.com/jmarksk/DrugReviewAnalysis/blob/main/Images/ratingsDistribution.png "y distr")
 
 Ratings are not normally distributed. Counts are highest at the worst and best ratings. 
 
